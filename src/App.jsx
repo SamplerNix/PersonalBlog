@@ -2,6 +2,8 @@ import "./App.css";
 import Article from "./components/Article";
 import Home from "./components/Home";
 import Navigation from "./components/Navigation";
+import Subscribe from "./components/Subscribe/Subscribe";
+import Footer from "./components/Subscribe/footer";
 import Cards from "./components/cards/cards"
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Home/>
       <Article/>
       <Cards/>
+      <Subscribe/>
+    <Footer/>
       </div>
     </>
   );

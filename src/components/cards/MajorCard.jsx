@@ -8,7 +8,7 @@ const MajorCard = ({src,category,date,heading,p}) => {
             <h1 className='text-[48px] font-bold'>Our Recent Post</h1>
             </div>
             <div className='flex items-center'>
-            <button className=" border-purple-500 border-1 p-[9.5px] font-medium rounded-md text-purple-500 ">Read More</button>
+            <button className=" border-purple-500 border-1 p-[9.5px] font-medium rounded-md text-purple-500 hover:bg-[#7C4EE4] hover:text-white ">Read More</button>
             </div>
         </div>
     <div className="flex">
@@ -23,7 +23,7 @@ const MajorCard = ({src,category,date,heading,p}) => {
        <h1 className="font-bold text-[32px]">{heading}</h1>
        <p className="text-gray-400 text-[16px] mt-2">{p} </p>
        <div>
-       <button className="mt-10 border-purple-500 border-1 p-[9.5px] font-medium rounded-md text-purple-500 ">Read More</button>
+       <button className="mt-10 border-purple-500 border-1 p-[9.5px] font-medium rounded-md text-purple-500 hover:bg-[#7C4EE4] hover:text-white ">Read More</button>git 
        </div>
        </div>
        </div>

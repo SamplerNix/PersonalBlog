@@ -2,7 +2,7 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div className='bg-purple-600 min-h-196.5 flex items-center justify-center px-5'>
+    <div className='bg-[#7C4EE4] min-h-196.5 flex items-center justify-center px-5'>
       <div className='max-w-6xl w-full flex flex-col md:flex-row items-center justify-between text-white gap-10x mt-15'>
         <div className='text-center md:text-left max-w-xl ml-18'>
             <p className='font-bold mb-8 '>Featured Post</p>
