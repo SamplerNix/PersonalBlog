@@ -6,7 +6,7 @@ const Navigation = () => {
     <img src='Logo.png' alt='logoimg' className=" min-w-32 max-h-10 " />
     </div>
     <div className="flex gap-10 items-center">
-    <h1 className="">About</h1>
+    <h1 className=""><a className="" href="/Aboutus">AboutMe</a></h1>
     <h1>Blog</h1>
     <CiSearch className="text-3xl border-0 "/>
     <button className="bg-purple-500 min-w-30 min-h-10 text-white rounded-md border-0 ">Contact us</button>
