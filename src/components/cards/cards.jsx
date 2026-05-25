@@ -2,7 +2,7 @@ import React from 'react'
 import Card from "./card"
 import MajorCard from './MajorCard'
 const Majorobj={
- src: "/Container.png",
+ src: "vr.png",
     category:"Travel",
     date:"13 Jan 2026",
     heading:"How to build strong portfolio and get a Job in UI/UX",

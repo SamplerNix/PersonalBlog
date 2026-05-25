@@ -8,6 +8,7 @@ import Subscribe from "./components/Subscribe/Subscribe";
 import Footer from "./components/Subscribe/footer";
 import Cards from "./components/cards/cards"
 import Contactus from "./components/contactus/contactus";
+import Blog from "./components/Blog/Blog";
 const prof={
     image:"/profileimage.png",
 }
@@ -26,7 +27,8 @@ function App() {
       </>
         }/>
        <Route path="/AboutMe" element={<Aboutus profileimage={prof.image}/>} ></Route> 
-       <Route path="/ContactUs" element={  <Contactus/>} ></Route> 
+       <Route path="/ContactUs" element={  <Contactus/>} ></Route>
+       <Route path="/Blog" element={<Blog/>}></Route> 
       </Routes>
       <Subscribe/>
     <Footer/>

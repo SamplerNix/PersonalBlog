@@ -13,7 +13,7 @@ const MajorCard = ({src,category,date,heading,p}) => {
         </div>
     <div className="flex">
          <div className="flex mb-14">
-                 <img src="vr.png" className="max-w-[712px] max-h-[456px]"/>
+                 <img src={src} className="max-w-[712px] max-h-[456px]"/>
          </div>
        <div className=" ml-14 flex flex-col">
       <div className="flex content-center">
